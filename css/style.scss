@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    text-align: center;
+}
+h2{
+    color: chocolate;
+}
+.root{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.inputForm{
+  margin-top: 50px;
+  width: 250px;
+}
+label{
+    font-size: 25px;
+    // padding: 50px;
+    
+    // border: 1px solid red;
+    color: white;
+}
+span{
+    color: white;
+}
+
+button{
+color: chocolate;
+
+// padding: 1%;
+background-color: #000;
+margin: 2px;
+border: 1px solid white;
+&:hover{
+    cursor:pointer;
+}
+}
